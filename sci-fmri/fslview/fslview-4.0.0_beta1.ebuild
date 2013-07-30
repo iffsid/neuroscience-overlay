@@ -18,7 +18,7 @@ DEPEND="sci-fmri/fsl
 		sci-libs/vtk
 		x11-libs/qt-gui
 		x11-libs/qwt:5
-		x11-libs/qt-assistant[compat]"
+		x11-libs/qthelp[compat]"
 RDEPEND="${DEPEND}"
 
 S="${WORKDIR}/fslview-4.0.0b"
