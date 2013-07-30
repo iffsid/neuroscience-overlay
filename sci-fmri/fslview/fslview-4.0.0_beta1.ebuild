@@ -16,9 +16,9 @@ KEYWORDS="~x86 ~amd64"
 
 DEPEND="sci-fmri/fsl
 		sci-libs/vtk
-		x11-libs/qt-gui
+		dev-qt/qtgui
 		x11-libs/qwt:5
-		x11-libs/qthelp[compat]"
+		dev-qt/qthelp[compat]"
 RDEPEND="${DEPEND}"
 
 S="${WORKDIR}/fslview-4.0.0b"
