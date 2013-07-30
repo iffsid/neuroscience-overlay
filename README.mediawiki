@@ -6,8 +6,14 @@ To use it install layman and edit your /etc/layman/layman.cfg
 to read:
 
    overlays  : http://www.gentoo.org/proj/en/overlays/repositories.xml
-               http://raw.github.com/abarbu/neuroscience-overlay/master/repositories.xml
+               http://raw.github.com/iffsid/neuroscience-overlay/master/repositories.xml
 
 and run:
 
    layman -a neuroscience
+
+This repo was forked from abarbu's repository with some minor modifications - refer to
+
+    http://github.com/abarbu/neuroscience-overlay
+
+for the master repository
