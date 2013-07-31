@@ -59,10 +59,14 @@ S="${WORKDIR}/${P}/src"
 src_prepare() {
 	cd src/
 
+	# typo in configure script
+	# ruby_modular build is broken
 	# dist-packages is only for debian
 	# remove exagarated optimizations (-O9 does not exist...)
 	# use gentoo lapack framework
 	sed -i \
+		-e "s/-Wno-deprecated\"/-Wno-deprecated/g" \
+		-e "s/^_ruby_modular=auto/_ruby_modular=no/g" \
 		-e 's/dist-packages/site-packages/g' \
 		-e '/^COMP_OPTS=/d' \
 		-e "s:-llapack -lcblas:$(pkg-config --libs cblas lapack):g" \

@@ -33,8 +33,6 @@ RDEPEND="dev-python/numpy
 		 dev-python/hcluster
 		 dev-python/matplotlib
 		 dev-python/rpy
-		 sci-fmri/afni
-		 sci-fmri/fsl
 		 sci-libs/libsvm
 		 sci-libs/scipy
 		 sci-libs/shogun[python]"
