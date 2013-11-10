@@ -5,8 +5,8 @@ This is a Gentoo overlay that provides various neuroscience tools.
 To use it install layman and edit your /etc/layman/layman.cfg
 to read:
 
-   overlays  : http://www.gentoo.org/proj/en/overlays/repositories.xml
-               http://raw.github.com/iffsid/neuroscience-overlay/master/repositories.xml
+   overlays : http://www.gentoo.org/proj/en/overlays/repositories.xml
+              http://raw.github.com/iffsid/neuroscience-overlay/master/repositories.xml
 
 and run:
 

@@ -28,11 +28,11 @@ DEPEND="
 		sci-neuro/nibabel"
 
 # TODO tutorial data
+#		 sci-libs/shogun[python]
 
 RDEPEND="dev-python/numpy
 		 dev-python/hcluster
 		 dev-python/matplotlib
 		 dev-python/rpy
 		 sci-libs/libsvm
-		 sci-libs/scipy
-		 sci-libs/shogun[python]"
+		 sci-libs/scipy"
